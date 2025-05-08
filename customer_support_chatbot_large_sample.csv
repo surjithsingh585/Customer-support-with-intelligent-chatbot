@@ -1,0 +1,101 @@
+customer_id,timestamp,channel,query_text,intent,entities,response_text,sentiment,resolution_status
+C1000,2025-05-05T01:14:00Z,email,Query related to change address for order #94870.,Change Address,{},Your delivery address has been updated for order #94870.,Negative,Pending
+C1001,2025-05-02T07:36:00Z,chat,Query related to cancel order for order #90316.,Cancel Order,{'order_id': '90316'},Your cancellation request for order #90316 has been processed.,Negative,Pending
+C1002,2025-05-02T12:42:00Z,web form,Query related to reset password for order #93970.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Positive,No
+C1003,2025-05-07T19:41:00Z,web form,Query related to change address for order #93539.,Change Address,{},Your delivery address has been updated for order #93539.,Negative,Yes
+C1004,2025-05-05T05:03:00Z,web form,Query related to change address for order #95961.,Change Address,{},Your delivery address has been updated for order #95961.,Neutral,No
+C1005,2025-05-02T05:24:00Z,chat,Query related to reset password for order #94732.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Negative,Yes
+C1006,2025-05-02T16:03:00Z,email,Query related to track shipment for order #93566.,Track Shipment,{'order_id': '93566'},You can track your shipment with this link: https://example.com/track/93566,Positive,No
+C1007,2025-05-05T14:33:00Z,chat,Query related to reset password for order #95448.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Negative,No
+C1008,2025-05-05T12:12:00Z,web form,Query related to change address for order #94163.,Change Address,{},Your delivery address has been updated for order #94163.,Negative,Pending
+C1009,2025-05-08T06:59:00Z,web form,Query related to change address for order #90025.,Change Address,{},Your delivery address has been updated for order #90025.,Neutral,Yes
+C1010,2025-05-02T23:51:00Z,web form,Query related to cancel order for order #96228.,Cancel Order,{'order_id': '96228'},Your cancellation request for order #96228 has been processed.,Negative,Pending
+C1011,2025-05-07T15:59:00Z,chat,Query related to change address for order #98119.,Change Address,{},Your delivery address has been updated for order #98119.,Negative,Pending
+C1012,2025-05-05T17:42:00Z,email,Query related to cancel order for order #98364.,Cancel Order,{'order_id': '98364'},Your cancellation request for order #98364 has been processed.,Positive,Yes
+C1013,2025-05-04T06:00:00Z,chat,Query related to reset password for order #93794.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Negative,No
+C1014,2025-05-07T10:08:00Z,chat,Query related to report wrong item for order #92104.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Negative,No
+C1015,2025-05-03T16:33:00Z,web form,Query related to check order status for order #94849.,Check Order Status,{'order_id': '94849'},Your order #94849 was shipped and will arrive soon.,Neutral,No
+C1016,2025-05-02T08:17:00Z,email,Query related to track shipment for order #99789.,Track Shipment,{'order_id': '99789'},You can track your shipment with this link: https://example.com/track/99789,Neutral,Pending
+C1017,2025-05-05T12:05:00Z,email,Query related to check order status for order #92457.,Check Order Status,{'order_id': '92457'},Your order #92457 was shipped and will arrive soon.,Negative,Yes
+C1018,2025-05-06T11:20:00Z,email,Query related to cancel order for order #94992.,Cancel Order,{'order_id': '94992'},Your cancellation request for order #94992 has been processed.,Neutral,Pending
+C1019,2025-05-03T21:11:00Z,email,Query related to track shipment for order #92802.,Track Shipment,{'order_id': '92802'},You can track your shipment with this link: https://example.com/track/92802,Negative,No
+C1020,2025-05-03T02:39:00Z,web form,Query related to reset password for order #90748.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Neutral,Yes
+C1021,2025-05-04T00:12:00Z,email,Query related to cancel order for order #91726.,Cancel Order,{'order_id': '91726'},Your cancellation request for order #91726 has been processed.,Neutral,No
+C1022,2025-05-03T06:52:00Z,web form,Query related to reset password for order #91483.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Positive,No
+C1023,2025-05-03T19:27:00Z,web form,Query related to cancel order for order #96947.,Cancel Order,{'order_id': '96947'},Your cancellation request for order #96947 has been processed.,Positive,No
+C1024,2025-05-06T04:07:00Z,chat,Query related to reset password for order #91499.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Positive,Pending
+C1025,2025-05-05T00:21:00Z,chat,Query related to track shipment for order #99812.,Track Shipment,{'order_id': '99812'},You can track your shipment with this link: https://example.com/track/99812,Positive,Yes
+C1026,2025-05-03T14:22:00Z,chat,Query related to report wrong item for order #98387.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Neutral,Pending
+C1027,2025-05-05T08:00:00Z,web form,Query related to report wrong item for order #91202.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Negative,Yes
+C1028,2025-05-01T11:25:00Z,email,Query related to check order status for order #97114.,Check Order Status,{'order_id': '97114'},Your order #97114 was shipped and will arrive soon.,Neutral,Yes
+C1029,2025-05-05T05:23:00Z,chat,Query related to reset password for order #93422.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Negative,Pending
+C1030,2025-05-01T15:54:00Z,web form,Query related to check order status for order #96046.,Check Order Status,{'order_id': '96046'},Your order #96046 was shipped and will arrive soon.,Positive,Yes
+C1031,2025-05-03T08:49:00Z,web form,Query related to check order status for order #90228.,Check Order Status,{'order_id': '90228'},Your order #90228 was shipped and will arrive soon.,Neutral,Pending
+C1032,2025-05-04T22:02:00Z,chat,Query related to reset password for order #98812.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Positive,Pending
+C1033,2025-05-03T07:42:00Z,web form,Query related to report wrong item for order #95330.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Neutral,No
+C1034,2025-05-07T07:22:00Z,email,Query related to check order status for order #98021.,Check Order Status,{'order_id': '98021'},Your order #98021 was shipped and will arrive soon.,Neutral,No
+C1035,2025-05-07T07:24:00Z,chat,Query related to cancel order for order #95261.,Cancel Order,{'order_id': '95261'},Your cancellation request for order #95261 has been processed.,Negative,No
+C1036,2025-05-04T03:41:00Z,email,Query related to reset password for order #94477.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Positive,Yes
+C1037,2025-05-05T07:09:00Z,web form,Query related to track shipment for order #93962.,Track Shipment,{'order_id': '93962'},You can track your shipment with this link: https://example.com/track/93962,Neutral,Pending
+C1038,2025-05-04T11:30:00Z,web form,Query related to change address for order #99484.,Change Address,{},Your delivery address has been updated for order #99484.,Neutral,Yes
+C1039,2025-05-02T09:39:00Z,chat,Query related to cancel order for order #90940.,Cancel Order,{'order_id': '90940'},Your cancellation request for order #90940 has been processed.,Neutral,Pending
+C1040,2025-05-06T05:55:00Z,chat,Query related to track shipment for order #92268.,Track Shipment,{'order_id': '92268'},You can track your shipment with this link: https://example.com/track/92268,Neutral,No
+C1041,2025-05-03T08:36:00Z,chat,Query related to report wrong item for order #99495.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Neutral,No
+C1042,2025-05-07T08:16:00Z,email,Query related to report wrong item for order #93799.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Neutral,No
+C1043,2025-05-05T09:08:00Z,web form,Query related to report wrong item for order #98587.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Positive,Pending
+C1044,2025-05-01T15:56:00Z,web form,Query related to change address for order #96866.,Change Address,{},Your delivery address has been updated for order #96866.,Neutral,Pending
+C1045,2025-05-08T00:39:00Z,email,Query related to report wrong item for order #98034.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Negative,Pending
+C1046,2025-05-07T21:07:00Z,email,Query related to reset password for order #98714.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Negative,Yes
+C1047,2025-05-01T13:33:00Z,web form,Query related to reset password for order #99643.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Positive,Pending
+C1048,2025-05-04T11:34:00Z,email,Query related to change address for order #95111.,Change Address,{},Your delivery address has been updated for order #95111.,Negative,Pending
+C1049,2025-05-04T12:31:00Z,web form,Query related to report wrong item for order #97362.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Negative,No
+C1050,2025-05-04T12:30:00Z,chat,Query related to track shipment for order #99213.,Track Shipment,{'order_id': '99213'},You can track your shipment with this link: https://example.com/track/99213,Negative,Yes
+C1051,2025-05-07T16:21:00Z,web form,Query related to cancel order for order #93412.,Cancel Order,{'order_id': '93412'},Your cancellation request for order #93412 has been processed.,Positive,Pending
+C1052,2025-05-01T20:32:00Z,web form,Query related to change address for order #90506.,Change Address,{},Your delivery address has been updated for order #90506.,Positive,Yes
+C1053,2025-05-06T06:38:00Z,chat,Query related to report wrong item for order #98507.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Neutral,Pending
+C1054,2025-05-04T08:27:00Z,email,Query related to track shipment for order #93496.,Track Shipment,{'order_id': '93496'},You can track your shipment with this link: https://example.com/track/93496,Negative,Yes
+C1055,2025-05-06T21:08:00Z,web form,Query related to reset password for order #98432.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Negative,Yes
+C1056,2025-05-07T02:10:00Z,web form,Query related to change address for order #91870.,Change Address,{},Your delivery address has been updated for order #91870.,Negative,No
+C1057,2025-05-06T07:18:00Z,email,Query related to track shipment for order #97905.,Track Shipment,{'order_id': '97905'},You can track your shipment with this link: https://example.com/track/97905,Negative,No
+C1058,2025-05-04T02:01:00Z,chat,Query related to reset password for order #97049.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Positive,No
+C1059,2025-05-04T00:02:00Z,email,Query related to change address for order #90692.,Change Address,{},Your delivery address has been updated for order #90692.,Negative,Pending
+C1060,2025-05-07T03:36:00Z,email,Query related to change address for order #90065.,Change Address,{},Your delivery address has been updated for order #90065.,Neutral,No
+C1061,2025-05-03T18:10:00Z,chat,Query related to cancel order for order #93322.,Cancel Order,{'order_id': '93322'},Your cancellation request for order #93322 has been processed.,Neutral,Yes
+C1062,2025-05-01T15:25:00Z,email,Query related to reset password for order #91951.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Neutral,No
+C1063,2025-05-08T06:59:00Z,email,Query related to reset password for order #99544.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Negative,Pending
+C1064,2025-05-03T02:34:00Z,web form,Query related to cancel order for order #90866.,Cancel Order,{'order_id': '90866'},Your cancellation request for order #90866 has been processed.,Neutral,No
+C1065,2025-05-02T16:58:00Z,web form,Query related to check order status for order #96983.,Check Order Status,{'order_id': '96983'},Your order #96983 was shipped and will arrive soon.,Neutral,No
+C1066,2025-05-05T09:00:00Z,chat,Query related to track shipment for order #95342.,Track Shipment,{'order_id': '95342'},You can track your shipment with this link: https://example.com/track/95342,Negative,Pending
+C1067,2025-05-03T16:43:00Z,email,Query related to report wrong item for order #91996.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Positive,No
+C1068,2025-05-02T13:22:00Z,chat,Query related to check order status for order #93698.,Check Order Status,{'order_id': '93698'},Your order #93698 was shipped and will arrive soon.,Negative,Pending
+C1069,2025-05-05T02:56:00Z,web form,Query related to report wrong item for order #96057.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Neutral,No
+C1070,2025-05-07T17:46:00Z,web form,Query related to check order status for order #92841.,Check Order Status,{'order_id': '92841'},Your order #92841 was shipped and will arrive soon.,Neutral,Yes
+C1071,2025-05-04T17:17:00Z,email,Query related to check order status for order #94816.,Check Order Status,{'order_id': '94816'},Your order #94816 was shipped and will arrive soon.,Positive,Pending
+C1072,2025-05-05T14:01:00Z,chat,Query related to check order status for order #98546.,Check Order Status,{'order_id': '98546'},Your order #98546 was shipped and will arrive soon.,Neutral,Yes
+C1073,2025-05-05T20:35:00Z,web form,Query related to report wrong item for order #90960.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Neutral,No
+C1074,2025-05-05T05:01:00Z,chat,Query related to cancel order for order #92118.,Cancel Order,{'order_id': '92118'},Your cancellation request for order #92118 has been processed.,Neutral,No
+C1075,2025-05-03T15:34:00Z,web form,Query related to reset password for order #96194.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Positive,No
+C1076,2025-05-04T04:54:00Z,web form,Query related to track shipment for order #97423.,Track Shipment,{'order_id': '97423'},You can track your shipment with this link: https://example.com/track/97423,Neutral,Yes
+C1077,2025-05-05T23:15:00Z,web form,Query related to cancel order for order #90037.,Cancel Order,{'order_id': '90037'},Your cancellation request for order #90037 has been processed.,Neutral,Yes
+C1078,2025-05-05T20:28:00Z,email,Query related to report wrong item for order #91310.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Neutral,Pending
+C1079,2025-05-05T19:40:00Z,web form,Query related to reset password for order #93661.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Neutral,Pending
+C1080,2025-05-03T15:04:00Z,email,Query related to reset password for order #91271.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Positive,Pending
+C1081,2025-05-02T10:17:00Z,chat,Query related to check order status for order #98330.,Check Order Status,{'order_id': '98330'},Your order #98330 was shipped and will arrive soon.,Negative,Yes
+C1082,2025-05-06T04:30:00Z,web form,Query related to check order status for order #99656.,Check Order Status,{'order_id': '99656'},Your order #99656 was shipped and will arrive soon.,Negative,Yes
+C1083,2025-05-08T03:30:00Z,chat,Query related to check order status for order #91222.,Check Order Status,{'order_id': '91222'},Your order #91222 was shipped and will arrive soon.,Neutral,Pending
+C1084,2025-05-02T14:36:00Z,web form,Query related to change address for order #99592.,Change Address,{},Your delivery address has been updated for order #99592.,Negative,Yes
+C1085,2025-05-02T05:45:00Z,email,Query related to report wrong item for order #91972.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Negative,No
+C1086,2025-05-07T09:05:00Z,chat,Query related to track shipment for order #99185.,Track Shipment,{'order_id': '99185'},You can track your shipment with this link: https://example.com/track/99185,Neutral,No
+C1087,2025-05-01T17:39:00Z,chat,Query related to track shipment for order #92881.,Track Shipment,{'order_id': '92881'},You can track your shipment with this link: https://example.com/track/92881,Positive,Yes
+C1088,2025-05-02T11:13:00Z,email,Query related to report wrong item for order #95094.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Positive,No
+C1089,2025-05-02T03:09:00Z,web form,Query related to reset password for order #90835.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Neutral,Pending
+C1090,2025-05-05T11:38:00Z,email,Query related to report wrong item for order #97935.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Positive,No
+C1091,2025-05-04T14:45:00Z,web form,Query related to report wrong item for order #95750.,Report Wrong Item,{},We're sorry! Upload a photo of the item and we’ll send the correct one.,Neutral,Pending
+C1092,2025-05-01T15:10:00Z,web form,Query related to cancel order for order #95357.,Cancel Order,{'order_id': '95357'},Your cancellation request for order #95357 has been processed.,Positive,Pending
+C1093,2025-05-04T01:58:00Z,email,Query related to cancel order for order #93346.,Cancel Order,{'order_id': '93346'},Your cancellation request for order #93346 has been processed.,Positive,Yes
+C1094,2025-05-06T10:03:00Z,chat,Query related to reset password for order #90334.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Positive,Pending
+C1095,2025-05-01T11:40:00Z,chat,Query related to change address for order #98092.,Change Address,{},Your delivery address has been updated for order #98092.,Positive,Yes
+C1096,2025-05-03T15:37:00Z,chat,Query related to check order status for order #99768.,Check Order Status,{'order_id': '99768'},Your order #99768 was shipped and will arrive soon.,Neutral,Pending
+C1097,2025-05-05T00:41:00Z,web form,Query related to reset password for order #95176.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Neutral,No
+C1098,2025-05-03T07:19:00Z,email,Query related to cancel order for order #90201.,Cancel Order,{'order_id': '90201'},Your cancellation request for order #90201 has been processed.,Negative,Pending
+C1099,2025-05-03T19:14:00Z,chat,Query related to reset password for order #94924.,Reset Password,{},Please use [this link](https://example.com/reset) to reset your password.,Neutral,Pending
