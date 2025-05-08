@@ -1,0 +1,57 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
+import seaborn as sns
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+import re
+
+# Download necessary NLTK data
+nltk.download('vader_lexicon')
+
+# Load dataset
+df = pd.read_csv("C:/Users/suba3/Downloads/customer_support_chatbot_large_sample.csv")
+
+# Display basic info
+print("Dataset Info:")
+print(df.info())
+
+# Preview data
+print("\nSample data:")
+print(df.head())
+
+# Optional: rename columns for convenience if necessary
+# df.columns = ['chat_id', 'customer_text', 'bot_response']  # Example
+
+# Clean text (assuming a column like 'customer_text' exists)
+def clean_text(text):
+    text = str(text).lower()
+    text = re.sub(r"http\S+|www\S+|https\S+", '', text)
+    text = re.sub(r'[^A-Za-z\s]', '', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+df['clean_text'] = df['customer_text'].apply(clean_text)
+
+# Sentiment analysis
+sia = SentimentIntensityAnalyzer()
+df['sentiment'] = df['clean_text'].apply(lambda x: sia.polarity_scores(x)['compound'])
+
+# Classify sentiment
+df['sentiment_label'] = df['sentiment'].apply(
+    lambda score: 'positive' if score > 0.2 else ('negative' if score < -0.2 else 'neutral'))
+
+# Plot sentiment distribution
+sns.countplot(x='sentiment_label', data=df)
+plt.title('Sentiment Distribution of Customer Messages')
+plt.show()
+
+# Generate a WordCloud of common words
+all_text = ' '.join(df['clean_text'])
+wordcloud = WordCloud(width=800, height=400, background_color='white').generate(all_text)
+
+plt.figure(figsize=(15, 7))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.title('Common Words in Customer Texts')
+plt.show()
